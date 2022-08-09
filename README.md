@@ -81,7 +81,9 @@
         - Pythonは2系ではなく3系を使用してください（3系の中でのバージョン指定はありません）
         - 解答は「この中に解答を記述してください」の中のみに記述を行うものとし、それ以外の箇所は修正しないでください
 1. 解答後、解答をしたブランチから **ご自身のアカウントにフォークしたリポジトリのmainブランチに対して** プルリクエストを作成してください ([プルリクエストの作成方法はこちら](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request))
-    - title, commitメッセージは採点対象外です。任意の文字列を入力してください。またdescriptionは記載不要です
+    - titleにはイベント申し込み時のメールアドレスを入力してください
+    - commitメッセージは採点対象外です。任意の文字列を入力してください
+    - descriptionは記載不要です
 1. フォークしたリポジトリに、採点用アカウントをコラボレータ追加してください ([コラボレータ登録方法はこちら](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository))
     - ご自身と採点用アカウントのみが、そのリポジトリを閲覧できるようになります
     - 採点用アカウント名: "typeshukatsu" で検索してください
