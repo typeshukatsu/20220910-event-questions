@@ -67,11 +67,11 @@
 
 ## 解答方法
 
-1. ご自身のGitHubアカウント上に [typeshukatsuの問題リポジトリ](https://github.com/typeshukatsu/20220910-event-questions) をフォークしてください ([フォークの方法はこちら](https://docs.github.com/ja/get-started/quickstart/fork-a-repo))
+1. [typeshukatsuの問題リポジトリ](https://github.com/typeshukatsu/20220910-event-questions)をご自身の端末にクローンして、その後ご自身のGitHubアカウントに複製してください( [複製の方法はこちら](https://docs.github.com/ja/repositories/creating-and-managing-repositories/duplicating-a-repository#mirroring-a-repository) )
     - リポジトリ名は元のリポジトリ名 "20220910-event-questions" としてください
-    - 上記フォークしたリポジトリはプライベートリポジトリとして作成してください
     - Branch protection rulesは設定をしないでください（採点できなくなる可能性があります）
-1. フォークしたリポジトリで新たなブランチを作成してください。ブランチ名は任意のもので結構です ([ブランチの作成方法はこちら](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository))
+1. 上記のリポジトリの可視性をプライベートに変更してください ( [可視性の変更方法はこちら](https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility) )
+1. 複製したリポジトリで新たなブランチを作成してください。ブランチ名は任意のもので結構です ([ブランチの作成方法はこちら](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository))
 1. 作成したブランチで、解答を作成してください
     - 解答はtemplateとして用意された各言語のファイルに記述してください
       - Pythonで解答する際の例:
@@ -80,11 +80,11 @@
       - 解答する言語のバージョンに関して特に指定はありません。ご自身の実行環境で動作するバージョンを使って解答してください。但し、
         - Pythonは2系ではなく3系を使用してください（3系の中でのバージョン指定はありません）
         - 解答は「この中に解答を記述してください」の中のみに記述を行うものとし、それ以外の箇所は修正しないでください
-1. 解答後、解答をしたブランチから **ご自身のアカウントにフォークしたリポジトリのmainブランチに対して** プルリクエストを作成してください ([プルリクエストの作成方法はこちら](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request))
+1. 解答後、解答をしたブランチから **mainブランチに対して** プルリクエストを作成してください ([プルリクエストの作成方法はこちら](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request))
     - titleにはイベント申し込み時のメールアドレスを入力してください
     - commitメッセージは採点対象外です。任意の文字列を入力してください
     - descriptionは記載不要です
-1. フォークしたリポジトリに、採点用アカウントをコラボレータ追加してください ([コラボレータ登録方法はこちら](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository))
+1. ご自身のリポジトリに、採点用アカウントをコラボレータ追加してください ([コラボレータ登録方法はこちら](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository))
     - ご自身と採点用アカウントのみが、そのリポジトリを閲覧できるようになります
     - 採点用アカウント名: "typeshukatsu" で検索してください
     - コラボレータ招待を以て解答完了とみなし、採点を行います
